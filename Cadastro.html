@@ -8,7 +8,7 @@
     <title>Document</title>
     <title>Login-Aquatech</title>
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="formulario-estilo.css">
+    <link rel="stylesheet" href="formulario-cadastro.css">
 
 </head>
 
@@ -20,8 +20,8 @@
                     <li><a href="Index.html">Inicial</a> </li>
                     <li>Simulador</li>
                     <li>|</li>
-                    <li id="aqui">Login</li>
-                    <li><a href="Cadastro.html">Cadastro</a></li>
+                    <li ><a href="Login.html">Login</a></li>
+                    <li id="aqui">Cadastro</li>
                 </ul>
             </div>
         </div>
@@ -29,15 +29,23 @@
         <div class="banner">
             <div class="container">
                <div class="caixa_formulario">
-                    <h1>Olá de volta!</h1>
+                    <h1>Bem-Vindo!</h1>
                     <div class="formulario">
+
+                        <span>Nome</span>
+                        <input id="nome_input" type="text" placeholder="Digite seu nome">
+
                         <span>E-mail:</span>
                         <input id="email_input" type="email" placeholder="Seu E-mail">
 
                         <span>Senha:</span>
                         <input id="senha_input" type="password" placeholder="*****" >
 
-                        <button>Entrar</button>
+                        <span>Confirmaçao da Senha</span>
+                        <input id="confirma_senha_input" type="text" placeholder="*****">
+
+
+                        <button>Cadastrar</button>
                     </div>
                </div>
             </div>
